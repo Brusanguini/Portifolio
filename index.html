@@ -1,40 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Portfolio</title>
+    
 </head>
-
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a class="menu-link" href="index.html">Home</a>
+            <a class="menu-link" href="about.html">Sobre mim</a>
+            <a class="menu-link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
     <main class="apresentacao">
-
-        <section class="apresentacao__conteudo">
-
-                    <h1 class="apresentacao__conteudo__titulo">
-                        Eleve seu negócio digital a outro nível
-                        <strong>com um Front-end de qualidade!</strong>
-                    </h1>
-
-                    <p class="apresentacao__conteudo__texto">
-                        Olá! Sou Bruna Sanguini, desenvolvedora iniciante de Front-end,
-                        estudante de ciência da compuatação pela SpTech, com especialidade
-                        em
-                        <strong class="titulo-destacado">JavaScript, HTML e CSS.</strong> Vamos conversar?
-                    </p>
-
-                    <div class="apresentacao__links">
-                        <a class="apresentacao__links__link" href="https://www.linkedin.com/in/brunasanguini/">Linkedin</a>
-                        <a class="apresentacao__links__link" href="https://github.com/brusanguini">GitHub</a>
-                    </div>
+        <section class="apresentacao-conteudo">
+            <h1 class="apresentacao-conteudo-titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destacado">com um Front-end de qualidade!</strong></h1>
+            <p class="texto-principal">Olá! Sou Bruna Sanguini, desenvolvedora iniciante estudante de ciência da computação pela SPTECH, este é um dos trabalhos para portfolio com HTML e CSS. Vamos conversar?</p>
+            
+            <div class="links">
+                <h2 class="links-titulo">Você pode me achar aqui:</h2>
+                <a class="link" href="https://www.linkedin.com/in/brunasanguini/">
+                    <img src="./assets/Logo linkedin.png">
+                    Linkedin</a>
+                <a class="link" href="https://github.com/Brusanguini">
+                    <img src="./assets/Logo Github.png">
+                    Github</a>
+                <a class="link" href="mailto:brunasmguedes@gmail.com">
+                    <img src="./assets/Logo Gmail.png">
+                    Gmail</a>
+                
+            </div>
         </section>
-        <img src="imagem.png" alt="Foto da Bruna Sanguini" />
+        <img src="./assets/Imagem.png" alt="foto de perfil">
     </main>
-    <footer></footer>
 </body>
-
 </html>
